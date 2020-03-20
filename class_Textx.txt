@@ -1,0 +1,4 @@
+https://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners/01
+https://www.w3schools.com/cs/cs_intro.asp
+https://www.tutorialsteacher.com/csharp/csharp-tutorials
+https://www.tutorialspoint.com/csharp/index.htm
