@@ -1,0 +1,26 @@
+### notes ###
+Unicode - old was 8 bit char ascii
+C# auto unicode - 16 bit.
+'d''e''l''i''m''i''t''e' chars
+"delimite strings"
+method is action or behavior
+for iterating through string via char. can use foreach, then doing have to do do for loop with string.Length
+gets called on data type, not the c etc
+if (char.IsPunctuation(c))
+Math.Pow(); // is different
+
+random gen = new Random();
+gen.Next(0, 15);
+static methods hmm
+diff method vs function?
+
+c# string is immutable can't change string once created.
+concatination doesnt change it creates a completely new string with added char.
+Lookup each new datatype property, methods.
+Ahh static method means datatype.whatever(char c); vs c.dostuff(); ?
+static usually means doesnt change though like static variable in a function if it's called again.. same value is in it. ???
+
+
+
+
+
