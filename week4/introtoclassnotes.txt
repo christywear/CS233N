@@ -1,0 +1,67 @@
+intro to classes: c# week 4
+
+several paradigms, ways of thinking 
+programmers use to solve programming
+procedural:
+focuses on the process involved in solving a partivcular problem and how the data involved in those processes will be shared.
+We used this approach in 133N. We talked about what should happen in th eprograms we where writing. We focused on VERBS as apposed to NOUNS.
+
+we wrote algorithms to describe details of main.
+sometimes wrote an algorithm that was complex rboke it up into smaller pieces called methods. we identified parameters
+
+object oriented:
+Focuseds on the the things involved in a system
+adentifiy the entities in each problem space. welll focus on NOUNS rather than verbs.
+
+well build software components or classes that model each of the things we identify each class will have
+attributes or characteristics that it knows about itself
+behaviors or methods that it knows how to do.
+teach class what it means to be that kind of thingswhat does it mean to be a Customer? What does it mean to be a product?
+What does it mean to be a Domino? What does it mean to be a card?
+
+Obj oriented program is the zen approach to programming.
+
+we'll build applications by dropping our classes into an application and letting them do their stuff.
+we are going to build 4 classes this week first one each pair. i'll do the second
+
+product and customer class
+domino playing card.
+
+
+
+object think:
+what does it mean to be a customer or product?
+whats name of class?
+what attributes or characteristics does it have? what things doe sit need to know about itself, to differentiate it from another product?
+what nbehaviors or actions does it need to know about how to do in order to behave like a product?
+
+
+class diagram:
+top is class name
+middle section lists the attributes or characteristics
+third section lists properties these are speciall .net classes that are like getters and setters. these become properties
+bottom section list the methods including special methods called constructors that are used to create and object.
+properties are special things gets and sets like code descrtions id quanity unit price .. like helpers.
+fields
+methods are constructors constructors identified by same name as class
+default constructors
+detailed constructors overloaded 
+tostring(): string
+
+more vocab:
+Class is software template or blueprint for things
+When you use the template to create a thing you have instiated an object
+Encapsulation is the software engineering term that refers to the fact a class combines all the characteristics and behaviors necssary to be a thing it is self contained
+
+
+example class introduce syntax semantics
+practice customer class
+domino class example
+practice card class
+
+code:
+walk through product class, talk about it, talk about how to test a class
+the first problem is in the lab asks you to use the product class as a model to create the customer class she'll walk us through the specification next.
+
+Given code for domino class it adds validation to the setters she'll talk about that third and will talk abou thow to test the validation.
+The second problem in the lab asks you to create the card class and will walk through the specification for that class last.
