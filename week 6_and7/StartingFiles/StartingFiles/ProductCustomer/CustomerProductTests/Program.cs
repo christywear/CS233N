@@ -20,10 +20,10 @@ namespace CustomerProductTests
             // TestProductListConstructor();
             //TestProductListAdd();
 
-            // TestProductListSaveAndFill();
-            //TestProductListRemove();
-            //TestProductEquals();
-            //TestProductGetHashCode();
+             TestProductListSaveAndFill();
+            TestProductListRemove();
+            TestProductEquals();
+            TestProductGetHashCode();
             TestProductListIndexer();
             TestProductEqualityOperator();
             TestProductInequalityOperator();

@@ -14,10 +14,10 @@ namespace CustomerTest
         static void Main(string[] args)
         {
             //test all the things!
-            TestCustomerConstructors();
-            TestCustomerToString();
-            TestCustomerPropertyGetters();
-            TestCustomerPropertySetters();
+            //TestCustomerConstructors();
+            //TestCustomerToString();
+            //TestCustomerPropertyGetters();
+            //TestCustomerPropertySetters();
             TestCustomerEquals();
             TestCustomerGetHashCode();
             TestCustomerListIndexer();
