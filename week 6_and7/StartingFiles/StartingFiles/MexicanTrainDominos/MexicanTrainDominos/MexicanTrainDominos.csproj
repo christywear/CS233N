@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="traindominos.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DominoClasses\DominoClasses.csproj">

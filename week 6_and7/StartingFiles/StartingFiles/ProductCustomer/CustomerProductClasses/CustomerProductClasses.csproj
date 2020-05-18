@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84962BAF-2AAB-4226-85B7-9649873B81D4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>DominoTests</RootNamespace>
-    <AssemblyName>DominoTests</AssemblyName>
+    <ProjectGuid>{C568762E-A38C-4E50-A2AA-9A156907EAF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomerProductClasses</RootNamespace>
+    <AssemblyName>CustomerProductClasses</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,18 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerDB.cs" />
+    <Compile Include="CustomerList.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductDB.cs" />
+    <Compile Include="ProductList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="programtests.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DominoClasses\DominoClasses.csproj">
-      <Project>{eeb87928-7dd5-46ed-b159-3b827b14164f}</Project>
-      <Name>DominoClasses</Name>
-    </ProjectReference>
+    <None Include="CustomerListClassDiagram.cd" />
+    <None Include="CustomerDBClassDiagram.cd" />
+    <None Include="ProductDBClassDiagram.cd" />
+    <None Include="ProductListClassDiagram.cd" />
+    <None Include="CustomerClassDiagram.cd" />
+    <None Include="ProductClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

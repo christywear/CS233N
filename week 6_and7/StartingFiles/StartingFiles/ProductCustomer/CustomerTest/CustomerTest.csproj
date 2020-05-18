@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84962BAF-2AAB-4226-85B7-9649873B81D4}</ProjectGuid>
+    <ProjectGuid>{F8A66880-296B-44EB-A2C5-BB0623D65672}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DominoTests</RootNamespace>
-    <AssemblyName>DominoTests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>CustomerTest</RootNamespace>
+    <AssemblyName>CustomerTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -48,12 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="programtests.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DominoClasses\DominoClasses.csproj">
-      <Project>{eeb87928-7dd5-46ed-b159-3b827b14164f}</Project>
-      <Name>DominoClasses</Name>
+    <ProjectReference Include="..\CustomerProductClasses\CustomerProductClasses.csproj">
+      <Project>{c568762e-a38c-4e50-a2aa-9a156907eaf5}</Project>
+      <Name>CustomerProductClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
