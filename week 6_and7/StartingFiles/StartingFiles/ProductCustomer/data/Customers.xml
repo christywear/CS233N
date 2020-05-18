@@ -2,16 +2,16 @@
 <Customers>
     <Customer>
         <Id>1</Id>
-        <Email>lastname</Email>
-        <FirstName>test@email.com</FirstName>
-        <LastName>firstname</LastName>
+        <Email>test@email.com</Email>
+        <FirstName>firstname</FirstName>
+        <LastName>lastname</LastName>
         <Phone>000-000-0000</Phone>
     </Customer>
     <Customer>
         <Id>3</Id>
-        <Email>lastnone</Email>
-        <FirstName>admin@email.com</FirstName>
-        <LastName>firstnone</LastName>
+        <Email>admin@email.com</Email>
+        <FirstName>firstnone</FirstName>
+        <LastName>lastnone</LastName>
         <Phone>555-555-5555</Phone>
     </Customer>
 </Customers>

@@ -10,9 +10,9 @@ namespace CustomerProductClasses
     {
         // our fields
         private int id;
+        private string email;
         private string firstName;
         private string lastName;
-        private string email;
         private string phone;
 
         // our properties or getters and setters for our fields
@@ -78,19 +78,19 @@ namespace CustomerProductClasses
 
         public Customer() { } // default constructor
 
-        public Customer(int customerid, string firstName, string lastName, string email, string phone) // override constructor
+        public Customer(int customerid, string email, string firstName, string lastName, string phone) // override constructor
         {
             Id = customerid;
+            this.Email = email;
             this.FirstName = firstName;
             this.LastName = lastName;
-            this.Email = email;
             this.Phone = phone;
         }
 
         //tostring override.
         public override string ToString()
         {
-            return String.Format("Id: {0} firstName: {1} lastName: {2} email: {3} phone: {4}", id, firstName, lastName, email, phone);
+            return String.Format("Id: {0} email: {1} firstName: {2} lastName: {3} email: {4} phone", id, email, firstName, lastName, phone);
         }
 
         //lets add some overrides
