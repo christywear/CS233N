@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoClasses", "DominoClasses\DominoClasses.csproj", "{EEB87928-7DD5-46ED-B159-3B827B14164F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoTests", "DominoTests\DominoTests.csproj", "{84962BAF-2AAB-4226-85B7-9649873B81D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MexicanTrainDominos", "MexicanTrainDominos\MexicanTrainDominos.csproj", "{94639948-6A8F-45F8-B844-2B4BC3E07CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB87928-7DD5-46ED-B159-3B827B14164F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB87928-7DD5-46ED-B159-3B827B14164F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB87928-7DD5-46ED-B159-3B827B14164F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB87928-7DD5-46ED-B159-3B827B14164F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84962BAF-2AAB-4226-85B7-9649873B81D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84962BAF-2AAB-4226-85B7-9649873B81D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84962BAF-2AAB-4226-85B7-9649873B81D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84962BAF-2AAB-4226-85B7-9649873B81D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94639948-6A8F-45F8-B844-2B4BC3E07CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94639948-6A8F-45F8-B844-2B4BC3E07CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94639948-6A8F-45F8-B844-2B4BC3E07CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94639948-6A8F-45F8-B844-2B4BC3E07CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EB8D684-AC60-4728-AE35-078B967224EB}
+	EndGlobalSection
+EndGlobal

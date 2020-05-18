@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardClasses", "CardClasses\CardClasses.csproj", "{9163EDCA-0090-4E04-99E0-6C502D26A59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTests", "CardTests\CardTests.csproj", "{A973C453-1475-4A48-AC87-02E5EC59D67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "BlackJack\BlackJack.csproj", "{73F67BC1-A593-454A-8CE4-30E4F554BD0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9163EDCA-0090-4E04-99E0-6C502D26A59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9163EDCA-0090-4E04-99E0-6C502D26A59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9163EDCA-0090-4E04-99E0-6C502D26A59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9163EDCA-0090-4E04-99E0-6C502D26A59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A973C453-1475-4A48-AC87-02E5EC59D67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A973C453-1475-4A48-AC87-02E5EC59D67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A973C453-1475-4A48-AC87-02E5EC59D67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A973C453-1475-4A48-AC87-02E5EC59D67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F67BC1-A593-454A-8CE4-30E4F554BD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F67BC1-A593-454A-8CE4-30E4F554BD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F67BC1-A593-454A-8CE4-30E4F554BD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F67BC1-A593-454A-8CE4-30E4F554BD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDF92331-6B48-4D71-8A30-5E71AACFE5BA}
+	EndGlobalSection
+EndGlobal
