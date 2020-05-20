@@ -28,7 +28,7 @@ namespace DominoClasses
             
             set
             {
-                listOfDominos.Add(value);
+                listOfDominos[index] = value;
             }
         }
         #endregion

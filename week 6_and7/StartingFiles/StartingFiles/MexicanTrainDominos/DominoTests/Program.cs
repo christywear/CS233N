@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,8 @@ namespace DominoTests
             TestboneyardConstructor();
             TestboneyardShuffle();
             TestboneyardDraw();
+            TestBonewardIndexer();
+
             Console.ReadLine();
         }
 
@@ -196,6 +199,22 @@ namespace DominoTests
             Console.WriteLine("Dealing again should return null. Expecting true. " + (b.Draw() == null));
 
             Console.WriteLine();
+        }
+
+        static void TestBonewardIndexer()
+        {
+            BoneYard b = new BoneYard(6);
+            
+            Console.WriteLine("testing indexer");
+            Console.WriteLine("expecting Side 1: 0 Side 2: 5 \n"  + b[5] + "\n");
+
+            Console.WriteLine("Changing d[5] to 1,1");
+            b[5] = new Domino(1, 1);
+            Console.WriteLine("expecting Side 1: 1 Side 2: 1 \n"  + b[5] + "\n");
+
+
+
+
         }
     }
 }
